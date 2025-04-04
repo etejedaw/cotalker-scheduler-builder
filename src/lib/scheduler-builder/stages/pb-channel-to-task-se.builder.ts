@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { StageBuilder } from "./stage.builder";
+import { StageBuilder } from "../stage.builder";
 
 const PBChannelToTaskSESchema = z.object({
 	channelId: z.string()

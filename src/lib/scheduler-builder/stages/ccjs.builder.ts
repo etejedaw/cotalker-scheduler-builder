@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { StageBuilder } from "./stage.builder";
+import { StageBuilder } from "../stage.builder";
 
 const CCJSSchema = z.object({
 	src: z.string()
